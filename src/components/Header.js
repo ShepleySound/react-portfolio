@@ -32,8 +32,15 @@ class Header extends Component {
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
-      return this.titles
-    }, (props, prevProp) => true);
+      const titleItems = this.titles.map((title) => 
+        <li>{title}</li>
+      );
+      return (
+        <ul className="title-list title-styles">
+          <li>{titleItems}</li>
+        </ul>
+      )
+    });
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
