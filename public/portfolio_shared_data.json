@@ -18,6 +18,11 @@
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/robert-shepley",
         "class": "fab fa-linkedin"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://www.twitter.com/shepleysound",
+        "class": "fab fa-twitter"
       }
     ],
     "image": "profilePic.jpg"
