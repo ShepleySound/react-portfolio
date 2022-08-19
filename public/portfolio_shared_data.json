@@ -2,7 +2,9 @@
   "basic_info": {
     "name": "Robert Shepley",
     "titles": [
-      "Software Developer"
+      "Software Developer",
+      "JavaScript",
+      "Hello World"
     ],
     "social": [
       {
