@@ -9,4 +9,6 @@ A portfolio built using React and a predefined template, provided by Code Fellow
 | Feature Name | Estimated Time | Start Time | Finish Time |
 | ------------ | -------------- | ---------- | ----------- |
 | Initial Import | 15 Minutes | 1:30PM | 1:40PM |
-| Customize Name | 10 Minutes | 2:55PM | 4:30PM |
+| Customize Name | 10 Minutes | 2:55PM | 3PM |
+| About Me | 1 Hour | 3PM | X |
+
