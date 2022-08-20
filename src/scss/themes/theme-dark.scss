@@ -1,6 +1,10 @@
-body[data-theme="dark"] {  
+body[data-theme="dark"] {
 
-   @import '/src/scss/dark-slider.scss';
+   // @import '/src/scss/dark-slider.scss';
+
+   :root {
+      --bs-link-color: ;
+   }
 
    .slider-tab {
       background-color: #8C8C8C;
@@ -11,7 +15,7 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      color: #ffffff;
       opacity: 0.8;
    }
 
@@ -19,8 +23,12 @@ body[data-theme="dark"] {
       border: 5px solid #8C8C8C;
    }
 
+   header .nav {
+      --bs-nav-link-color: #CCCCCC;
+   }
+
    .language {
-      background-color: #494949;
+      background-color: #182625;
    }
 
    .link-href {
@@ -33,7 +41,8 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: #262c33;
+
       h1 {
          color: white;
       }
@@ -41,34 +50,52 @@ body[data-theme="dark"] {
 
    #about {
       background-color: #7f7f7f;
+
       h1 span {
          color: white;
       }
+
       .polaroid span {
-         background:  #6d6d6d;
+         background: #6d6d6d;
       }
+
       .card {
          background: #6d6d6d;
          color: white;
       }
    }
 
+   .section-title {
+      color: #F2F4F3;
+   }
+
    #portfolio {
-      background: #5b5b5b;
+      background: #2e343a;
+
       .section-title {
          color: white !important;
       }
+
       .foto div {
          background: #6d6d6d;
       }
+
       .project-title-settings {
          color: white;
       }
    }
 
+   #skills {
+      background: #262c33;
+      min-height: 200px;
+      width: 100%;
+      overflow: hidden;
+      padding-bottom: 10%;
+   }
+
    #resume {
-      filter: brightness(80%);
-      background: #5b5b5b;
+      background: #2e343a;
+
       .section-title {
          color: white !important;
       }
@@ -89,7 +116,8 @@ body[data-theme="dark"] {
       .vertical-timeline-element-icon {
          background: #919191 !important;
       }
-      @media only screen and (max-width: 1169px) { 
+
+      @media only screen and (max-width: 1169px) {
          .vertical-timeline-element-date {
             color: black;
          }
@@ -103,5 +131,9 @@ body[data-theme="dark"] {
 
    .close-icon {
       color: white;
+   }
+
+   footer {
+      background-color: #262c33;
    }
 }

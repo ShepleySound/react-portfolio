@@ -32,19 +32,19 @@ class Header extends Component {
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
-      const titleItems = this.titles.map((title) => 
-        <li>{title}</li>
+      const titleItems = this.titles.map((title, i) => 
+        <li key={i}>{title}</li>
       );
       return (
         <ul className="title-list title-styles">
-          <li>{titleItems}</li>
+          {titleItems}
         </ul>
       )
     });
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
-        <a href="https://github.com/codefellows/cra-template-react-portfolio" target="_blank" rel="noreferrer" className="github-corner" aria-label="View source on GitHub">
+        <a href="https://github.com/shepleysound" target="_blank" rel="noreferrer" className="github-corner" aria-label="View source on GitHub">
           <svg width="90" height="90" viewBox="0 0 250 250" style={{ fill: '#151513', color: '#fff', position: 'absolute', top: 0, border: 0, left: 0, transform: 'scale(-1, 1)', zIndex: 9999 }} aria-hidden="true">
             <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
             <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style={{ transformOrigin: '130px 106px' }} className="octo-arm"></path>
@@ -66,15 +66,17 @@ class Header extends Component {
             <Switch 
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
-              offColor="#baaa80"
-              onColor="#353535"
+              onColor="#D2DAD6"
+              offColor="#D6D8D4"
+              onHandleColor="CCCCCC"
+              offHandleColor="EEEEEE"
               className="react-switch mx-auto"
               width={90}
               height={40}
               uncheckedIcon={
                 <span
                   className="iconify"
-                  data-icon="twemoji:owl"
+                  data-icon="carbon:light"
                   data-inline="false"
                   style={{
                     display: "block",
@@ -82,14 +84,14 @@ class Header extends Component {
                     fontSize: 25,
                     textAlign: "end",
                     marginLeft: "20px",
-                    color: "#353239",
+                    // color: "#353239",
                   }}
                 ></span>
               }
               checkedIcon={
                 <span
                   className="iconify"
-                  data-icon="noto-v1:sun-with-face"
+                  data-icon="carbon:mostly-cloudy-night"
                   data-inline="false"
                   style={{
                     display: "block",
@@ -97,7 +99,7 @@ class Header extends Component {
                     fontSize: 25,
                     textAlign: "end",
                     marginLeft: "10px",
-                    color: "#353239",
+                    // color: "#353239",
                   }}
                 ></span>
               }
