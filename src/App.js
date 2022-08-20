@@ -18,8 +18,11 @@ class App extends Component {
     };
   }
 
+
+
   componentDidMount = () => {
     this.loadSharedData();
+    this.loadResumeFromPath('res_primaryLanguage.json');
   }
 
   loadResumeFromPath = (path) => {
