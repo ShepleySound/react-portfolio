@@ -35,8 +35,7 @@ html {
 
 header {
 	position: relative;
-	height: 520px;
-	min-height: 450px;
+	height: 600px;
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -151,7 +150,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #DEE3E0;
 	overflow: hidden;
 }
 
@@ -162,6 +161,10 @@ header h1 {
 	letter-spacing: 3px;
 	color: black;
 	text-align: center;
+}
+
+#about .about-icon {
+	margin: 8px;
 }
 
 .foto img {
@@ -184,6 +187,7 @@ header h1 {
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+	border-radius: 8px;
 }
 
 .foto div:after {
@@ -216,13 +220,15 @@ header h1 {
 .polaroid img {
 	display: block;
 	max-width: 200px;
+	border-radius: 8px;
+	margin-bottom: 8px;
 }
 
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
 	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	padding: 15px 15px 15px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -233,6 +239,7 @@ header h1 {
 	transition: all .20s linear;
 	z-index: 0;
 	position: relative;
+	border-radius: 8px;
 }
 
 .link-href {
@@ -273,6 +280,7 @@ header h1 {
 
 .main-badge {
 	margin-right: 4px;
+	margin-bottom: 4px;
 	font-size: 13px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
@@ -284,6 +292,7 @@ header h1 {
 
 .experience-badge {
 	margin-right: 4px;
+	margin-bottom: 4px;
 	font-size: 11px !important;
 	color: black;
 	font-weight: lighter !important;
@@ -366,10 +375,9 @@ header h1 {
 }
 
 .modal-description {
-	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 1.5em;
 }
 
 .awssld__next {
@@ -473,5 +481,5 @@ footer a:focus {
 
 .social-links {
 	margin-top: 10px;
-	font-size: 22px;
+	font-size: 42px;
 }
