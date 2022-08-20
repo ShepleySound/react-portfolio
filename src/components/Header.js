@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Switch from "@brookr/react-switch";
 import Nav from 'react-bootstrap/Nav'
 import { LinkContainer } from "react-router-bootstrap";
+import spaceBanner from '../assets/cyberCat-Transparent.png'
 
 class Header extends Component {
   titles = [];
@@ -108,10 +109,9 @@ class Header extends Component {
           </Nav.Item>
         </Nav>
         <div className="row aligner">
+          <img className="header-logo" src={spaceBanner} alt="Brand Banner"/>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
               <h1 className="mb-0">
                 {name}
               </h1>
