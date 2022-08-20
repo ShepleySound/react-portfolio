@@ -57,6 +57,25 @@
       ]
     },
     {
+      "title": "Gallery of Horns",
+      "startDate": "2022",
+      "description": "My first fully-functional React app that implements a live fuzzy search alongside a filtering option. Styled with a mixture of pure CSS and Bootstrap.",
+      "images": [
+        "images/portfolio/gallery-of-horns/p1.png"
+      ],
+      "url": "https://github.com/ShepleySound/gallery-of-horns",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        }
+      ]
+    },
+    {
       "title": "Minimalist Thermostat",
       "startDate": "2022",
       "description": "This is a card built for Home Assistant, a home automation control system. I have multiple thermostats that need controlling throughout my house, and I wasn't happy with the UI/UX in any of the built-in cards or any available through public repositories, so I built my own! This card currently runs on my home system, and my wife says I did a very good job :)",
