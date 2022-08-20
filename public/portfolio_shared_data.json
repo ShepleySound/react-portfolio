@@ -1,31 +1,22 @@
 {
   "basic_info": {
-    "name": "Robert Shepley",
+    "name": "Ursula Lopez",
     "titles": [
-      "Software Developer",
-      "HTML/CSS",
-      "JavaScript",
-      "React",
-      "Audio Engineer"
+      "Software Developer"
     ],
     "social": [
       {
         "name": "github",
-        "url": "https://github.com/shepleysound",
+        "url": "https://github.com",
         "class": "fab fa-github"
       },
       {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/robert-shepley",
-        "class": "fab fa-linkedin"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://www.twitter.com/shepleysound",
-        "class": "fab fa-twitter"
+        "name": "instagram",
+        "url": "https://www.instagram.com",
+        "class": "fab fa-instagram"
       }
     ],
-    "image": "profilePic.jpg"
+    "image": "myProfile.jpg"
   },
   "skills": {
     "icons": [
@@ -40,8 +31,8 @@
         "level": "95"
       },
       {
-        "name": "React",
-        "class": "devicon-react-plain",
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
         "level": "80"
       },
       {
@@ -63,6 +54,16 @@
         "name": "Bootstrap",
         "class": "devicon-bootstrap-plain",
         "level": "85"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
       }
     ]
   }
